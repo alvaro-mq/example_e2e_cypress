@@ -1,0 +1,22 @@
+{
+  "name": "example_e2e_cypress",
+  "version": "1.0.0",
+  "description": "ejemplo de uso de cypress.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvaromamani/example_e2e_cypress.git"
+  },
+  "author": "alvaromamani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvaromamani/example_e2e_cypress/issues"
+  },
+  "homepage": "https://github.com/alvaromamani/example_e2e_cypress#readme",
+  "devDependencies": {
+    "cypress": "^5.1.0"
+  }
+}
