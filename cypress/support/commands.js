@@ -23,3 +23,9 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('search', (dataSearch) => {
+  cy.log(`Buscando: ${dataSearch}`);
+  cy.get('#search_query_top').type(dataSearch);
+  cy.get('#searchbox > .btn').click();
+});
