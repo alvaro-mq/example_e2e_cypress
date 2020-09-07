@@ -1,6 +1,6 @@
 describe('Prueba de lista', () => {
   beforeEach(() => {
-    cy.visit('http://automationpractice.com/index.php');
+    cy.visit('/');
   });
 
   it('Deberia seleccionar el primer elemento de una lista', () => {

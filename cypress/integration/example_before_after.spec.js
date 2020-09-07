@@ -9,7 +9,7 @@ describe('Prueba de before y after', () => {
 
   beforeEach(() => {
     cy.log('Ejecutando antes de cada caso de prueba');
-    cy.visit('http://automationpractice.com/index.php');
+    cy.visit('/');
   });
 
   afterEach(() => {

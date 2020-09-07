@@ -2,7 +2,7 @@ const indexPage = require('../support/pages/indexPage');
 
 describe('Prueba de page objects', () => {
   beforeEach(() => {
-    cy.visit('http://automationpractice.com/index.php');
+    cy.visit('/');
   });
   it('Deberia buscar dress en el input de busqueda', () => {
     const page = new indexPage();
