@@ -1,5 +1,5 @@
-describe('Formas de encontrar un element', () => {
-  it('buscar un texto', () => {
+describe('Pruebas de formas de encontrar un element', () => {
+  it('Deberia buscar un texto', () => {
     cy.visit('http://automationpractice.com/index.php');
     cy.get('.search_query.form-control.ac_input').type('-> Por clase'); //Busqueda por clase
     cy.get('#search_query_top').type('-> Por id'); // Busqueda por id
